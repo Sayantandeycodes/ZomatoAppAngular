@@ -1,9 +1,18 @@
-.headerList{
+.headerContainer{
     position: absolute;
     top: 0;
     color:white;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+}
+.headerList{
+    display: flex;
     list-style: none;
+    justify-content: space-around;
+    min-width: 587px;
 }
 .headerList .listItem{
     padding: 20px 10px;

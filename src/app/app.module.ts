@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { SearchContainerComponent } from './search-container/search-container.component';
+import { HomeGridsComponent } from './home-grids/home-grids.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SearchContainerComponent } from './search-container/search-container.co
     HeaderComponent,
     FooterComponent,
     HomePageComponent,
-    SearchContainerComponent
+    SearchContainerComponent,
+    HomeGridsComponent
   ],
   imports: [
     BrowserModule,

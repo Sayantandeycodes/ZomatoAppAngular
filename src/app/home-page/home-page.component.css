@@ -1,0 +1,16 @@
+.homegrid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homegrid .grid{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+}
