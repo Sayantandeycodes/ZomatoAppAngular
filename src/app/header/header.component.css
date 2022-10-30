@@ -1,0 +1,10 @@
+.headerList{
+    position: absolute;
+    top: 0;
+    color:white;
+    display: flex;
+    list-style: none;
+}
+.headerList .listItem{
+    padding: 20px 10px;
+}
