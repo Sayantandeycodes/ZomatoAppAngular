@@ -8,9 +8,34 @@
     display: flex;
     flex-direction: column;
     height: 250px;
+    width: 340px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: flex-end;
+    padding: 5px 13px;
+}
+.collectionGrid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collectionGrid .grid{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
     width: 250px;
     border: 1px solid black;
     margin: 10px;
     border-radius: 10px;
-    justify-content: center;
+    justify-content: flex-end;
+    padding: 5px 10px;
+}
+.collectionGrid .grid span{
+    color:white;
+    font-size: 18px;
+}
+.collectionHeading{
+    margin:20px 58px;
 }
