@@ -1,17 +1,14 @@
-<div class="homegrid">
-    <div class="grid">
-        <h3>Order Online</h3>
-        <span>Stay home and order to your doorstep</span>
-    </div>
-    <div class="grid">
-        <h3>Dining</h3>
-        <span>View the city's favorite dining venues</span>
-    </div>
-    <div class="grid">
-        <h3>Nightlife and Clubs</h3>
-        <span>Explore the city's top nightlife outlets</span>
+<div class="homegrid" *ngIf="loading === false;else content">
+    <div *ngFor="let obj of gridData">
+    <a routerLink="/orderOnline" routerLinkActive="active" ariaCurrentWhenActive="page"><div class="grid">
+        <h3>{{obj.title}}</h3>
+        <span>{{obj.description}}</span>
+    </div></a>
     </div>
 </div>
+<ng-template #content>
+    loading ...
+</ng-template>
 <div class="collectionHeading">
     <h1>Collections</h1>
     <span>Explore curated lists of top restaurants, cafes, pubs, and bars in Kolkata, based on trends</span>

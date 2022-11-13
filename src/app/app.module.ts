@@ -8,7 +8,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { SearchContainerComponent } from './search-container/search-container.component';
 import { HomeGridsComponent } from './home-grids/home-grids.component';
-
+import { RestaurantListComponent } from './restaurant-list/restaurant-list.component';
+import { GridService } from './services/grids.services';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,13 +18,15 @@ import { HomeGridsComponent } from './home-grids/home-grids.component';
     FooterComponent,
     HomePageComponent,
     SearchContainerComponent,
-    HomeGridsComponent
+    HomeGridsComponent,
+    RestaurantListComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [GridService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

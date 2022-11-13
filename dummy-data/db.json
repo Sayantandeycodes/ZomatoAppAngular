@@ -1,3 +1,17 @@
 {
-    "header" : ["Investor Relations","Add restaurant","Log in","Sign up"]
+    "header" : ["Investor Relations","Add restaurant","Log in","Sign up"],
+    "homegrid" : [
+        {
+            "title" : "Order Online",
+            "description" : "Stay home and order to your doorstep"
+        },
+        {
+            "title" : "Dining",
+            "description" : "View the city's favorite dining venues"
+        },
+        {
+            "title" : "Nightlife and Clubs",
+            "description" : "Explore the city's top nightlife outlets"
+        }
+    ]
 }
